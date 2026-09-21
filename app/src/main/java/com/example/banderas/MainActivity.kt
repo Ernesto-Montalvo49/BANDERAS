@@ -12,13 +12,13 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.banderas.ui.theme.BanderasTheme
 
 @Composable
-fun BanderaFrancia(modifier: Modifier = Modifier) {
+fun BanderaItalia(modifier: Modifier = Modifier) {
     Row(modifier = modifier.fillMaxSize()) {
         Box(
             modifier = Modifier
                 .weight(1f)
                 .fillMaxHeight()
-                .background(Color(0xFF0055A4))
+                .background(Color(0xFF009246))
         )
         Box(
             modifier = Modifier
@@ -30,15 +30,15 @@ fun BanderaFrancia(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .weight(1f)
                 .fillMaxHeight()
-                .background(Color(0xFFEF4135))
+                .background(Color(0xFFCE2B37))
         )
     }
 }
 
 @Preview(showBackground = true)
 @Composable
-fun BanderaFranciaPreview() {
+fun BanderaItaliaPreview() {
     BanderasTheme {
-        BanderaFrancia()
+        BanderaItalia()
     }
 }
